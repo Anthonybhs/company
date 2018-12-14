@@ -1,0 +1,94 @@
+body {
+	background: url("../img/car.jpg") no-repeat center center;
+	background-size: cover;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0 0 20px;
+}
+.main-nav {
+	padding: 0;
+	margin: 0;
+}
+.main-nav li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px 20px;
+	position: relative;
+	font-family: 'Lato', sans-serif; 
+}
+.main-nav li a {
+	text-decoration: none;
+	color: #303030;
+}
+img.logo{
+	width: 20%;
+	padding: 2% 0;
+} 
+.info{
+	position: relative;
+
+}
+.text{
+	position: relative;
+	border: solid;
+	background-color: #ffffff;
+	padding: 2% 5% 2% 5%;
+	width: 40%;
+	margin: 10% auto 0 auto;
+}
+img{
+	width: 20%;
+	padding: 2% 0;
+	margin: 0 5%;
+} 
+.text1{
+		border: solid;
+		background-color: #ffffff;
+		padding: 2% 5% 2% 5%;
+		margin: 0 5%;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50%;
+	align-items: center;
+	padding: 20px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	border: solid;
+}
+label{
+	color: #000000;
+}
+p{
+	display: flex;
+}
+a.join{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 40% 0 46%;
+	text-decoration: none;
+	color: #ffffff
+}
+input[type=submit]{
+	background-color: blue;
+	color: white;
+	padding: 10px 15px;
+	-webkit-appearance:none;
+	border: 0;
+}
+input[type=submit]:hover{
+	background-color: #000000;
+}
+
